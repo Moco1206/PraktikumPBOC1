@@ -93,7 +93,17 @@ public class Titik {
         return Math.sqrt(dx*dx + dy*dy);
     }
 
-
-
+    void refleksiX() {
+        this.ordinat = -this.ordinat;
+    }
+    void refleksiY() {
+        this.absis = -this.absis;
+    }
+    Titik getRefleksiX() {
+        return new Titik(this.absis, -this.ordinat);
+    }
+    Titik getRefleksiY() {
+        return new Titik(-this.absis, this.ordinat);
+    }
 
 } //end class titik

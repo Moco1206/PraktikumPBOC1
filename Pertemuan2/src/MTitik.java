@@ -27,6 +27,14 @@ public class MTitik {
 
         T2.printCounterTitik();
         System.out.println("Titik T2 ada di kuadran : " + T2.getKuadran());
+        System.out.println("Jarak T2 ke pusat : " + T2.getJarakPusat());
+        System.out.println("jarak T2 dengan T3 : " + T2.getJarak(T3));
+        T1.refleksiX();  
+        T1.printTitik();
+        Titik T4 = new Titik(3,4);
+        Titik T5 = T4.getRefleksiX();
+        T4.printTitik();
+        T5.printTitik();
 
 
     }
