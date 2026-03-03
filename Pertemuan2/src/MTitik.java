@@ -26,6 +26,7 @@ public class MTitik {
         System.out.println("Jumlah Objek Titik = " + T2.getCounterTitik());
 
         T2.printCounterTitik();
+        System.out.println("Titik T2 ada di kuadran : " + T2.getKuadran());
 
 
     }

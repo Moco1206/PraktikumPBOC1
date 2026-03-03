@@ -62,6 +62,38 @@ public class Titik {
     
     void printCounterTitik() {
     System.out.println(this.counterTitik);
-}
+    }
+
+    int getKuadran() {
+        if (this.absis > 0 && this.ordinat > 0) {
+            return 1;
+        } 
+        else if (this.absis < 0 && this.ordinat > 0) {
+            return 2;
+        } 
+        else if (this.absis < 0 && this.ordinat < 0) {
+            return 3;
+        } 
+        else if (this.absis > 0 && this.ordinat < 0) {
+            return 4;
+        } 
+        else {
+            return 0;
+        }
+    }
+
+    double getJarakPusat(){
+        return Math.sqrt(absis*absis + ordinat*ordinat);
+    }   
+
+    double getJarak(Titik T){
+        double dx, dy;
+        dx = this.absis - T.absis;
+        dy = this.ordinat - T.ordinat;
+        return Math.sqrt(dx*dx + dy*dy);
+    }
+
+
+
 
 } //end class titik
