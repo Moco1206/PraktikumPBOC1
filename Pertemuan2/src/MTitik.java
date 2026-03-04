@@ -1,5 +1,5 @@
-/* Nama File    : Titik.java
- * Deskripsi    : berisi atribut dan method dalam class Titik
+/* Nama File    : MTitik.java
+ * Deskripsi    : driver titik
  * Pembuat      : Marco Falias Pangkado
  * Tanggal      : 26/2/2026
  */
@@ -13,17 +13,17 @@ public class MTitik {
         T1.geser(3,4);          //menggeser T1 sejauh (3,4)
         T1.printTitik();        //menampilkan koordinat T1 setelah digeser
 
-        Titik T2 = T1;          // Membuat referensi T2 yang menunjuk ke objek yang sama dengan T1
-        T2.printTitik();        // Mencetak koordinat T2
-        T1.setAbsis(10);        // Mengubah absis T1 menjadi 10
-        T1.setOrdinat(10);      // Mengubah ordinat T1 menjadi 10
-        T2.printTitik();        // Mencetak kembali T2 untuk melihat efek perubahan pada T1
+        Titik T2 = T1;          
+        T2.printTitik();        
+        T1.setAbsis(10);        
+        T1.setOrdinat(10);      
+        T2.printTitik();        
 
         Titik T3 = new Titik(7,7);
         T3.printTitik();
 
         System.out.println("Jumlah Objek Titik = " + Titik.getCounterTitik());
-        System.out.println("Jumlah Objek Titik = " + T2.getCounterTitik());
+        System.out.println("Jumlah Objek Titik = " + T2 .getCounterTitik());
 
         T2.printCounterTitik();
         System.out.println("Titik T2 ada di kuadran : " + T2.getKuadran());
