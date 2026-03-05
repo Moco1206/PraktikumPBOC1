@@ -1,7 +1,8 @@
 /* Nama File    : MataKuliah.java
- * Deskripsi    : berisi atribut dan method dalam class MataKuliah
+ * Deskripsi    : atribut dan method class MataKuliah
  * Pembuat      : Marco Falias Pangkado
  * Tanggal      : 05/03/2026
+ * Lab          : C2
  */
 
 public class MataKuliah {
@@ -9,7 +10,7 @@ public class MataKuliah {
     private String idMatKul;
     private String nama;
     private int sks;
-    
+
     public MataKuliah() {
         this.idMatKul = "";
         this.nama = "";

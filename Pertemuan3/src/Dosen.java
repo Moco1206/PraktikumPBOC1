@@ -2,6 +2,7 @@
  * Deskripsi    : berisi atribut dan method dalam class Dosen
  * Pembuat      : Marco Falias Pangkado
  * Tanggal      : 05/03/2026
+ * Lab          : C2
  */
 
 public class Dosen {

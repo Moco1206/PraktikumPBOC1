@@ -2,6 +2,7 @@
  * Deskripsi    : Driver Dosen
  * Pembuat      : Marco Falias Pangkado
  * Tanggal      : 05/03/2026
+ * Lab          : C2
  */
 
 public class MDosen {
