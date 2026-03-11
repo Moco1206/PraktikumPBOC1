@@ -3,12 +3,6 @@
     Pembuat     : Marco Falias Pangkado
     Tanggal     : 19/02/2026*/
 
-/* Nama File    : Titik.java
- * Deskripsi    : berisi atribut dan method dalam class Titik
- * Pembuat      : 
- * Tanggal      : 
- */
-
 public class Titik {
     /********************ATRIBUT********************/
     double absis;
