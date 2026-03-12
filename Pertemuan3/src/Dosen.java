@@ -3,7 +3,7 @@
  * Pembuat      : Marco Falias Pangkado
  * Tanggal      : 09/03/2026
  * Lab          : C2
- */git add Pertemuan3/src/Dosen.java
+ */
 
 public class Dosen {
 
