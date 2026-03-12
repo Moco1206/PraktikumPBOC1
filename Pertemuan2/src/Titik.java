@@ -56,7 +56,11 @@ public class Titik {
         counterTitik++;
     }
     
+<<<<<<< HEAD
      //mengembalikan jumlah objek titik yang telah dibuat
+=======
+    //mengembalikan jumlah objek titik yang telah dibuat
+>>>>>>> Pertemuan2
     public static int getCounterTitik(){
         return counterTitik;
     }   
@@ -90,7 +94,11 @@ public class Titik {
         return Math.sqrt(absis*absis + ordinat*ordinat);
     }   
 
+<<<<<<< HEAD
      //menghitung jarak antara suatu titik dengan titik T
+=======
+    //menghitung jarak antara titik ini dengan titik T
+>>>>>>> Pertemuan2
     public double getJarak(Titik T){
         double dx, dy;
         dx = this.absis - T.absis;
@@ -117,5 +125,3 @@ public class Titik {
     public Titik getRefleksiY() {
         return new Titik(-this.absis, this.ordinat);
     }
-
-} //end class titik
