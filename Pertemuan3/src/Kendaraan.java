@@ -7,9 +7,12 @@
 
 
 public class Kendaraan {
+    // *************atribut******************
     private String noPlat;
     private String jenis;
 
+    //*************KONSTRUKTOR**** */
+    //tanpa parameter
     public Kendaraan(){
 
         this.noPlat = "";
