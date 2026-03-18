@@ -1,7 +1,7 @@
-/*  Nama file   : Main.java
-    Deskripsi   : driver buat tes semua method class Persegi dan Lingkaran
+/*  Nama file   : mainPegawai.java
+    Deskripsi   : driver class pegawai dkk
     Pembuat     : Marco Falias Pangkado
-    Tanggal     : 16/03/2026
+    Tanggal     : 18/03/2026
  */
 
 public class Main {
