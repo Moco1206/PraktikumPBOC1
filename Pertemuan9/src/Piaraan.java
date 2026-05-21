@@ -52,7 +52,6 @@ public class Piaraan {
         }
         return count;
     }
-
     public double bobotKucing() {
         double total = 0;
         for (Anabul a : Lanabul) {
@@ -62,7 +61,6 @@ public class Piaraan {
         }
         return total;
     }
-
     public void showJenisAnabul() {
         for (Anabul a : Lanabul) {
             System.out.println(a.getNama() + " - " + a.getClass().getName());
