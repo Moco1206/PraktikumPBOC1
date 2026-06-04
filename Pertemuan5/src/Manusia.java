@@ -9,12 +9,14 @@ import java.time.Period;
 import java.time.format.DateTimeFormatter;
 
 public abstract class Manusia {
+    //atribut
     protected String nama;
     protected String tglMulaiKerja;
     protected String alamat;
     protected double pendapatan;
     protected static int counterMns = 0;
 
+    //konst dgn parameter
     public Manusia(String nama, String tglMulaiKerja, String alamat, double pendapatan) {
         this.nama = nama;
         this.tglMulaiKerja = tglMulaiKerja;
@@ -23,10 +25,12 @@ public abstract class Manusia {
         counterMns++;
     }
 
+    //konst dgn parameter (tanpa alamat)
     public Manusia(String nama, String tglMulaiKerja, double pendapatan) {
         this(nama, tglMulaiKerja, "-", pendapatan);
     }
 
+    //getter dan setter
     public String getNama() {
         return nama;
     }
@@ -63,6 +67,7 @@ public abstract class Manusia {
         return counterMns;
     }
 
+    //method lain
     protected int hitungSelisihTahun() {       
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd-MM-uuuu");  //karna inpputnya string aku jadi bingung, jadi minta tolong sahabat
         LocalDate mulai = LocalDate.parse(tglMulaiKerja, fmt);
