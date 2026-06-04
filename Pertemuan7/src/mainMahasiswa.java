@@ -1,3 +1,8 @@
+//Nama File : mainMahasiswa.java
+//Deskripi  : driver Mahasiswa
+//Pembuat   : Marco Falias Pangkado
+//Tanggal   : (jujur ga ingat)
+
 public class mainMahasiswa {
     public static void main(String[] args) {
 
