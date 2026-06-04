@@ -1,3 +1,8 @@
+//Nama File : MainSeminar.java
+//Deskripi  : driver Seminar
+//Pembuat   : Marco Falias Pangkado
+//Tanggal   : (jujur ga ingat)
+
 public class MainSeminar {
     public static void main(String[] args) {
 

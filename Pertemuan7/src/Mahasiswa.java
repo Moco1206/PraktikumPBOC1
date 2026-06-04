@@ -1,9 +1,16 @@
+//Nama File : Mahasiswa.java
+//Deskripi  : berisi method dan atribut class Mahasiswa
+//Pembuat   : Marco Falias Pangkado
+//Tanggal   : (jujur ga ingat)
+
 public class Mahasiswa {
 
+    //atribut
     private String NIM;
     private String Nama;
     private String ProgramStudi;
 
+    //getter dan setter
     public String getNIM() {
         return NIM;
     }
@@ -49,6 +56,7 @@ public class Mahasiswa {
         this.ProgramStudi = m.getProgramStudi();
     }
 
+    //method lain
     public void tampil() {
         System.out.println("NIM     : " + NIM);
         System.out.println("Nama    : " + Nama);

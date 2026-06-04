@@ -1,3 +1,8 @@
+//Nama File : mainAnabul.java
+//Deskripi  : driver Anabul
+//Pembuat   : Marco Falias Pangkado
+//Tanggal   : (jujur ga ingat)
+
 public class mainAnabul {
     public static void main(String[] args) {
 

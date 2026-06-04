@@ -1,8 +1,15 @@
+//Nama File : Seminar.java
+//Deskripi  : berisi method dan atribut class Seminar
+//Pembuat   : Marco Falias Pangkado
+//Tanggal   : (jujur ga ingat)
+
 public class Seminar {
 
+    //atribut
     private CivitasAkademika[] peserta;
     private int banyakPeserta;
 
+    //soal soal buat method
     // b
     public Seminar() {
         peserta = new CivitasAkademika[100];

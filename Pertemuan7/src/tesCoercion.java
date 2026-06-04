@@ -1,8 +1,16 @@
+//Nama File : tesCoercion.java
+//Deskripi  : berisi method dan atribut class tesCoercion
+//Pembuat   : Marco Falias Pangkado
+//Tanggal   : (jujur ga ingat)
+
 public class tesCoercion {
 
+    //atribut
     static String S;
     static Integer A
     ;
+
+    //method dari soal
     //tes coercion
     public static void coercion() {
         int nilaiInt = 65;
