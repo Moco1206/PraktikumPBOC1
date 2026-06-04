@@ -1,14 +1,18 @@
-// Marco
-// 24060124130112
+//Nama File : Datum.java
+//Deskripi  : berisi method dan atribut class Datum
+//Pembuat   : Marco Falias Pangkado
+//Tanggal   : (jujur ga ingat)
 
 public class Datum<T> {
-
+    //atribut
     private T isi;
 
+    //konst dgn parameter
     public Datum(T isi) {
         this.isi = isi;
     }
 
+    //getter dan setter
     public T getIsi() {
         return isi;
     }
