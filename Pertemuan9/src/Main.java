@@ -1,5 +1,7 @@
-//Marco falias pangkado
-//24060124130112
+//Nama File : Main.java
+//Deskripi  : driver buat tes semua
+//Pembuat   : Marco Falias Pangkado
+//Tanggal   : (jujur ga ingat)
 
 public class Main {
     public static void main(String[] args) {
