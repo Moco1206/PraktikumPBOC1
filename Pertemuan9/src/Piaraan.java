@@ -1,21 +1,27 @@
-//Marco Falias Pnagkado
-//24060124130112
-
+//Nama File : Piaraan.java
+//Deskripi  : berisi method dan atribut class Piaraan
+//Pembuat   : Marco Falias Pangkado
+//Tanggal   : (jujur ga ingat)
 import java.util.*;
 
 public class Piaraan {
+
+    //atribut
     private int nbelm;
     private Queue<Anabul> Lanabul;
 
+    //konst tnpa parameter
     public Piaraan() {
         Lanabul = new LinkedList<>();
         nbelm = 0;
     }
 
+    //getter
     public int getNbelm() {
         return nbelm;
     }
 
+    //method lain
     public void enqueueAnabul(Anabul anabul) {
         Lanabul.add(anabul);
         nbelm++;
@@ -52,6 +58,7 @@ public class Piaraan {
         }
         return count;
     }
+
     public double bobotKucing() {
         double total = 0;
         for (Anabul a : Lanabul) {
@@ -61,6 +68,7 @@ public class Piaraan {
         }
         return total;
     }
+
     public void showJenisAnabul() {
         for (Anabul a : Lanabul) {
             System.out.println(a.getNama() + " - " + a.getClass().getName());

@@ -1,14 +1,23 @@
+//Nama File : Teman.java
+//Deskripi  : berisi method dan atribut class Teman
+//Pembuat   : Marco Falias Pangkado
+//Tanggal   : (jujur ga ingat)
+
 import java.util.*;
 
 public class Teman {
+
+    //atibut
     private int nbelm;
     private ArrayList<String> Lnama;
 
+    //konst tnpa parameter
     public Teman() {
         Lnama = new ArrayList<>();
         nbelm = 0;
     }
 
+    //getter dan setter
     public int getNbelm() {
         return nbelm;
     }
@@ -21,6 +30,7 @@ public class Teman {
         Lnama.set(indeks, nama);
     }
 
+    //method lain
     public void addNama(String nama) {
         Lnama.add(nama);
         nbelm++;
