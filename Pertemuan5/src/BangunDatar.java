@@ -13,10 +13,13 @@ public abstract class BangunDatar {
     private static int counterBangunDatar = 0;
 
     //method
+
+    //konst tnpa parameter
     public BangunDatar() {
         counterBangunDatar++;
     }
 
+    //konst dgn parameter
     public BangunDatar(int jmlSisi, String warna, String border) {
         this.jmlSisi = jmlSisi;
         this.warna = warna;
@@ -24,6 +27,7 @@ public abstract class BangunDatar {
         counterBangunDatar++;
     }
 
+    //getter dan setter
     public int getJmlSisi() {
         return jmlSisi;
     }
@@ -48,6 +52,7 @@ public abstract class BangunDatar {
         this.border = border;
     }
 
+    //method lain
     public void printInfo() {
         System.out.println("Jumlah sisi: " + jmlSisi);
         System.out.println("Warna: " + warna);

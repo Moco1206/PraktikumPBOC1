@@ -5,22 +5,27 @@
  */
 
 public class PNS extends Manusia implements Pajak {
+    //atribt
     private String nip;
     private static int counterPNS = 0;
 
     private static final int A = 2; 
+
+    //konst dgn parameter
     public PNS(String nama, String tglMulaiKerja, String alamat, double pendapatan, String nip) {
         super(nama, tglMulaiKerja, alamat, pendapatan);
         this.nip = nip;
         counterPNS++;
     }
 
+    //konst dgn parameter (beda parameter)
     public PNS(String nama, String tglMulaiKerja, double pendapatan, String nip) {
         super(nama, tglMulaiKerja, pendapatan);
         this.nip = nip;
         counterPNS++;
     }
 
+    //getter dan setter
     public String getNip() {
         return nip;
     }
@@ -33,6 +38,7 @@ public class PNS extends Manusia implements Pajak {
         return counterPNS;
     }
 
+    //method lain
     @Override
     public int hitungMasaKerja() {
         return hitungSelisihTahun() + A;

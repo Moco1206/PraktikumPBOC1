@@ -5,17 +5,21 @@
  */
 
 public class Lingkaran extends BangunDatar implements IResize {
+    //atribut
     private double jari;
 
+    //konst dgn parameter
     public Lingkaran() {
         setJmlSisi(1);
     }
 
+    //konst tnpa parameter
     public Lingkaran(double diameter, String warna, String border) {
         super(1, warna, border); 
         this.jari = diameter / 2;
     }
 
+    //getter dan setter
     public double getJari() {
         return jari;
     }
@@ -32,6 +36,7 @@ public class Lingkaran extends BangunDatar implements IResize {
         return 2 * 3.14 * jari;
     }
 
+    //method lain
     @Override
     public void printInfo() {
         super.printInfo();

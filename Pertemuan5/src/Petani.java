@@ -5,17 +5,20 @@
  */
 
 public class Petani extends Manusia implements Pajak {
+    //atribut
     private String asalKota;
     private static int counterPetani = 0;
 
     private static final int C = 1;
 
+    //konst dgn parameter
     public Petani(String nama, String tglMulaiKerja, String alamat, double pendapatan, String asalKota) {
         super(nama, tglMulaiKerja, alamat, pendapatan);
         this.asalKota = asalKota;
         counterPetani++;
     }
 
+    //getter dan setter
     public String getAsalKota() {
         return asalKota;
     }
@@ -28,6 +31,7 @@ public class Petani extends Manusia implements Pajak {
         return counterPetani;
     }
 
+    //method lain
     @Override
     public int hitungMasaKerja() {
         return hitungSelisihTahun() + C;
