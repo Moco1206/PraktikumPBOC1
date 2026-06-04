@@ -42,6 +42,7 @@ public class Tendik extends Pegawai {
         this.bidang = bidang;
     }
 
+    //method lain
     @Override
     public void printInfo() {
         Period mk = getMasaKerja();

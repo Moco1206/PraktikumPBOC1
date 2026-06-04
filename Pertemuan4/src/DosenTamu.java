@@ -13,15 +13,19 @@ public class DosenTamu extends Dosen {
     private LocalDate akhirKontrak;
 
     //methos
+
+    //konst tnpa parameter
     public DosenTamu(){
 
     }
+    //konst dgn parameter
     public DosenTamu(String NIP, String NIDK, String nama, LocalDate Tanggal_lahir, LocalDate TMT, double gaji_pokok, String fakultas, LocalDate akhirKontrak) {
         super(NIP, nama, Tanggal_lahir, TMT, gaji_pokok, fakultas);
         this.NIDK = NIDK;
         this.akhirKontrak = akhirKontrak;
     }
 
+    //getter dan setter
     public String getNIDK(){
         return NIDK;
     }
@@ -36,6 +40,7 @@ public class DosenTamu extends Dosen {
         this.NIDK = NIDK;
     }
 
+    //method lain
     @Override
     public void printInfo() {
         System.out.println("NIP : " + getNIP());

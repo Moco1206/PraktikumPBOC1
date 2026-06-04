@@ -65,6 +65,7 @@ public class Pegawai {
         this.gaji_pokok = gaji_pokok;
     }
 
+    //method lain
     public void printInfo() {
         System.out.println("NIP            : " + NIP);
         System.out.println("Nama           : " + nama);
