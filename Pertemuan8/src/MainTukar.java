@@ -1,5 +1,8 @@
-// Marco
-// 24060124130112
+//Nama File : MainTukar.java
+//Deskripi  : driver DatumTuker
+//Pembuat   : Marco Falias Pangkado
+//Tanggal   : (jujur ga ingat)
+
 
 public class MainTukar {
     public static void main(String[] args) {

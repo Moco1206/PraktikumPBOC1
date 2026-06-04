@@ -1,5 +1,7 @@
-// Marco
-// 24060124130112
+//Nama File : MainKucing.java
+//Deskripi  : driver Kucing
+//Pembuat   : Marco Falias Pangkado
+//Tanggal   : (jujur ga ingat)
 
 public class MainKucing {
     public static void main(String[] args) {

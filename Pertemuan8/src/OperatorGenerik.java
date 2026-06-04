@@ -1,3 +1,8 @@
+//Nama File : OperatorGenerik.java
+//Deskripi  : :v
+//Pembuat   : Marco Falias Pangkado
+//Tanggal   : (jujur ga ingat)
+
 public class OperatorGenerik {
     public static <T> void tukar(DatumTuker<T> a, DatumTuker<T> b) {
         T temp = a.getIsi();

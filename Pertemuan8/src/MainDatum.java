@@ -1,5 +1,7 @@
-// Marco
-// 24060124130112
+//Nama File : MainDatum.java
+//Deskripi  : driver Datum
+//Pembuat   : Marco Falias Pangkado
+//Tanggal   : (jujur ga ingat)
 
 public class MainDatum {
     public static void main(String[] args) {

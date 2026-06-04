@@ -1,5 +1,7 @@
-// Marco
-// 24060124130112
+//Nama File : MainData.java
+//Deskripi  : driver Data
+//Pembuat   : Marco Falias Pangkado
+//Tanggal   : (jujur ga ingat)
 
 public class MainData {
     public static void main(String[] args) {
