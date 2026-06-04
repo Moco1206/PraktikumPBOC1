@@ -1,7 +1,8 @@
 /**
- * File      : AngkaSial.java
- * Deskripsi : Program penggunaan exception buatan sendiri
- * Pengenalan klausa 'throw' dan 'throws'
+ * Nama File    : AngkaSial.java
+ * Deskripsi    : Program penggunaan exception buatan sendiri. pengenalan klausa 'throw' dan 'throws'
+ * Pembuat      : Marco Falias Pangkado
+ * tanggal      : 14/4/26
  * */
 public class AngkaSial {
     
@@ -19,7 +20,7 @@ public class AngkaSial {
             as.cobaAngka(13);
             as.cobaAngka(12);
         } catch (AngkaSialException ase) {
-            //method getMessage() telah ada pada kelas "Exception"
+            //method getMessage() ada pada kelas "Exception"
             System.out.println(ase.getMessage());
             System.out.println("hati-hati memasukkan angka!!!");
         }
