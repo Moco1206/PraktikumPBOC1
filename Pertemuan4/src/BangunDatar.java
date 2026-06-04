@@ -13,10 +13,12 @@ public class BangunDatar {
     private static int counterBangunDatar = 0;
 
     //method
+    //konstruktor no parameter
     public BangunDatar() {
         counterBangunDatar++;
     }
 
+    //konst. pake parameter
     public BangunDatar(int jmlSisi, String warna, String border) {
         this.jmlSisi = jmlSisi;
         this.warna = warna;
@@ -24,6 +26,7 @@ public class BangunDatar {
         counterBangunDatar++;
     }
 
+    //getter dan setter
     public int getJmlSisi() {
         return jmlSisi;
     }
@@ -48,6 +51,7 @@ public class BangunDatar {
         this.border = border;
     }
 
+    //method lain
     public void printInfo() {
         System.out.println("Jumlah sisi: " + jmlSisi);
         System.out.println("Warna: " + warna);

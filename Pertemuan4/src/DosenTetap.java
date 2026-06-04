@@ -14,13 +14,18 @@ public class DosenTetap extends Dosen {
     private final int BUP = 65;
 
     //method
+    //konst tnpa parameter
     public DosenTetap(){
         
     }
+
+    //konst dgn parameter
     public DosenTetap(String NIP, String NIDN, String nama, LocalDate Tanggal_lahir, LocalDate TMT, double gaji_pokok, String fakultas) {
         super(NIP, nama, Tanggal_lahir, TMT, gaji_pokok, fakultas);
         this.NIDN = NIDN;
     }
+
+    //getter dan setter
     public String getNIDN(){
         return NIDN;
     }
@@ -39,6 +44,7 @@ public class DosenTetap extends Dosen {
         this.NIDN = NIDN;
     }
 
+    //method lain
     @Override
     public void printInfo() {
         Period masa_kerja = getMasaKerja();

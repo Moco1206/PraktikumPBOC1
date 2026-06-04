@@ -5,17 +5,21 @@
  */
 
 public class Persegi extends BangunDatar {
+    //atribut
     private double sisi;
 
+    //konst tnpa parameter
     public Persegi() {
         setJmlSisi(4);
     }
 
+    //konst dgn parameter
     public Persegi(double sisi, String warna, String border) {
         super(4, warna, border); 
         this.sisi = sisi;
     }
 
+    //getter dan setter
     public double getSisi() {
         return sisi;
     }
@@ -36,6 +40,7 @@ public class Persegi extends BangunDatar {
         return Math.sqrt(2) * sisi;
     }
 
+    //method lain
     @Override
     public void printInfo() {
         super.printInfo();
