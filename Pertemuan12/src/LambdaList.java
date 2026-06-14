@@ -18,3 +18,5 @@ public class LambdaList {
         mahasiswaList.forEach((nama) -> System.out.println(nama));
     }
 }
+
+//nesa tai
